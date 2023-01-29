@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnership and Giving</title>
+    <link rel="stylesheet" href="css/covenant.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <!--navigation  area-->
+    <nav>
+        <div class="container nav-flex">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+            <a href="#" class="drop"><i class="fas fa-bars"></i></a>
+            <ul class="menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About Us</a></li>
+                <li class="nav-item"><a href="bibleschool.html">Bible School</a></li>
+                <li class="nav-item"><a href="#">Media</a></li>
+                <li class="nav-item"><a href="partner.html">Partner</a></li>
+                <li class="nav-item"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <!--banner area-->
+    <div class="content-banner contact-bg"></div>
+
+  
+    <!--main content-->
+  
+    <div class="container">
+        <div class="bold-h">
+           partner with us
+        </div>
+        <div class="about-us">
+            Feel free to partner with us through giving and sponsorship of our various programs
+            that are aimed at propagating the gospel of Christ.
+            
+        </div>
+    </div>
+  
+    <div class="container flexy">
+       
+        <div class="col-50">
+            <h3>Donate</h3>
+            <form id="contact-form" method="POST" action="">
+              <input type="text" name="fullname" class="form-control" placeholder="Your Full Name" required>
+              <br>
+              <input type="number" name="phone-no" class="form-control" placeholder="Your Phone Number" required>
+              <br>
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+              <br>
+              <input type="number" name="Amount" class="form-control" placeholder="Amount" required>
+              <br>
+              <input type="submit" name="" class="form-control submit" value="Donate">
+              
+    
+            </form>
+          
+        </div>
+        
+    </div>
+
+    <!--footer-->
+      <footer>
+          <div class="container">
+              <div class="flexy">
+                  <div class="col-25">
+                    <p>
+                        Covenant Faithlife Assembly Inc. is a church 
+                        committed to the healing of the total man touching 
+                        your Spirit, Soul and Body thus restoring the 
+                        tripartite man to his original position of dominion
+                         on earth while conforming to the image of Christ.
+                    </p>
+                    
+                    <!-- <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a> -->
+                    <a href="https://web.facebook.com/Covenant-Faithlife-Assembly-Inc-595270933899818/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCetO1KcVmDcVPusfBYD7RjQ" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                  </div>
+                  <div class="col-25">
+                      <h4>Quick Links</h4>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Bible School</a></li>
+                          <li><a href="#">New Covenant House Academy</a></li>
+                          <li><a href="#">Campus Fellowship</a></li>
+                          <li><a href="#">Contact Us</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-25">
+                      <h4>Find Us</h4>
+                      <table>
+                          <tr>
+                              <td><i class="fas fa-street-view"></i></td>
+                              <td>No. 1 Kamalu Street Umungasi, Aba, Abia State</td>
+                          </tr>
+                          <tr>
+                              <td><span><i class="fas fa-phone-alt"></i></span></td>
+                              <td>+234-808-574-7473</td>
+                          </tr>
+                          
+                        <tr>
+                            <td><span><i class="fas fa-envelope-open-text"></i></span></td>
+                            <td>info@newcovenantword.org</td>
+                        </tr>
+                          
+                      </table>
+                  </div>
+                  <div class="col-25">
+                      <div class="footer-logo">
+                          <img src="img/logo.png" alt="">
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+          <p class="copyright"><a href="#">&copy; NEWCOVENANTWORD.ORG All Rights Reserved</a></p>
+      </footer>
+
+    <!--scripts-->
+    <script src="js/main.js"></script>
+    <script>
+        let dropMenu=document.querySelector('.drop');
+        let menu=document.querySelector('.menu')
+        dropMenu.addEventListener("click", navToggle)
+
+        function navToggle(){
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
